@@ -29,6 +29,6 @@ jobs:
     - name: Deploy to Google Cloud Functions
       run: |
         gcloud config set project YOUR_PROJECT_ID
-        gcloud functions deploy HandleGitHubPush --runtime go113 --trigger-http --allow-unauthenticated
+        gcloud functions deploy linkGCal --runtime go113 --trigger-http --allow-unauthenticated
       env:
         GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
