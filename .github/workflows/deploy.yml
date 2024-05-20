@@ -29,6 +29,9 @@ jobs:
     - name: Deploy to Google Cloud Functions
       run: |
         gcloud config set project proven-fx-423903-k1
-        gcloud functions deploy linkGCal --runtime go121 --trigger-http --region asia-northeast3 --allow-unauthenticated
-      env:
-        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        gcloud functions deploy linkGCal \
+        --runtime go121 \
+        --trigger-http \
+        --region asia-northeast3 \
+        --allow-unauthenticated \
+        --set-env-vars GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}
