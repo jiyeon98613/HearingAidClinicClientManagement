@@ -75,4 +75,3 @@ func main() {
     http.HandleFunc("/", handlePushEvent)
     http.ListenAndServe(":8080", nil)
 }
-
