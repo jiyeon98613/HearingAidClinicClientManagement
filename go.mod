@@ -31,5 +31,5 @@ require (
 	google.golang.org/grpc v1.63.2 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 	google.golang.org/api/calendar/v3
-    	google.golang.org/api/option v0.41.0	
+    	google.golang.org/api/option	
 )
