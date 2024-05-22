@@ -1,6 +1,6 @@
 module github.com/jiyeon98613/HearingAidClinicClientManagement
 
-go 1.22.3
+go 1.21
 
 require google.golang.org/api v0.181.0
 
@@ -30,6 +30,6 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240513163218-0867130af1f8 // indirect
 	google.golang.org/grpc v1.63.2 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
-	google.golang.org/api/calendar/v3
-    	google.golang.org/api/option	
+	google.golang.org/api/calendar/v3 v0.58.0
+    	google.golang.org/api/option v0.41.0	
 )
