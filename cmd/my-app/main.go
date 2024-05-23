@@ -4,7 +4,7 @@ import (
     "database/sql"
     "fmt"
     "log"
-    ""github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/model"
+    "github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/model"
     "github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/repository"
     //"HearingAidClinicClientManagement/pkg/service"
 
