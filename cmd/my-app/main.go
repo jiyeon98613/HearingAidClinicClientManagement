@@ -4,8 +4,8 @@ import (
     "database/sql"
     "fmt"
     "log"
-    "HearingAidClinicClientManagement/pkg/repository"
-    "HearingAidClinicClientManagement/pkg/model"
+    ""github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/model"
+    "github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/repository"
     //"HearingAidClinicClientManagement/pkg/service"
 
     _ "github.com/go-sql-driver/mysql"
