@@ -2,7 +2,7 @@ package repository
 
 import (
     "database/sql"
-    "HearingAidClinicClientManagement/pkg/model"
+    "github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/model"
 )
 
 // PatientRepository describes the interface for patient storage operations
