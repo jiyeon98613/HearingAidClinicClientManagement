@@ -1,0 +1,9 @@
+# 이 파일은 gcloud 도구가 Cloud Functions에 배포할 때 무시할 파일 목록을 지정합니다.
+
+.git
+.gitignore
+.gcloudignore
+.github
+node_modules/
+*.md
+*.test.go
