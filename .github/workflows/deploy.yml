@@ -34,7 +34,7 @@ jobs:
         gcloud config set project proven-fx-423903-k1
         gcloud functions deploy linkGCal \
         --entry-point=HandleGitHubPushEvent\
-        --runtime go121 \ # Update to match the version of Go in your function
+        --runtime go121 \
         --trigger-http \
         --region asia-northeast3 \
         --allow-unauthenticated \
