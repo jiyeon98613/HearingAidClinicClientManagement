@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/bootstrap"
-	"github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/model"
-	"github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/webhook"
+	"workspace/src/github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/bootstrap"
+	"workspace/src/github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/model"
+	"workspace/src/github.com/jiyeon98613/HearingAidClinicClientManagement/pkg/webhook"
 )
 
 func main() {
