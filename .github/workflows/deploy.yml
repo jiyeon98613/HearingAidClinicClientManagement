@@ -22,7 +22,7 @@ jobs:
     
     
     - name: Build
-      run: go build -v -x ./github.com/jiyeon98613/HearingAidClinicClientManagement/...
+      run: go build -v -x ./...
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v1
@@ -38,5 +38,5 @@ jobs:
         --trigger-http \
         --region asia-northeast3 \
         --allow-unauthenticated \
-        --source=cmd/my-app \
+        --source=. \
         --set-env-vars GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}
