@@ -22,7 +22,7 @@ jobs:
       run: go mod tidy
     
     - name: Build
-      run: go build -v ./github.com/jiyeon98613/HearingAidClinicClientManagement/...
+      run: go build -v ./...
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v1
